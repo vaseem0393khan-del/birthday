@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday ❤️</title>
+
+<meta
+name="theme-color"
+content="#120018">
+
+<meta
+name="description"
+content="Premium Interactive Birthday Surprise">
+
+<link
+rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<!-- ========================================= -->
+<!-- LOADER -->
+<!-- ========================================= -->
+
+<div id="loader">
+
+<div class="loader-bg"></div>
+
+<div class="loader-content">
+
+<div class="loader-circle">
+
+<div class="loader-ring"></div>
+
+<div class="loader-ring delay1"></div>
+
+<div class="loader-ring delay2"></div>
+
+</div>
+
+<h1>
+
+Preparing Surprise...
+
+</h1>
+
+<p>
+
+Loading memories...
+
+</p>
+
+<div class="loadingBar">
+
+<div class="loadingFill"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ========================================= -->
+<!-- MAIN APP -->
+<!-- ========================================= -->
+
+<div id="app">
+
+<!-- Animated Background -->
+
+<div id="background">
+
+<div class="gradientLayer"></div>
+
+<div class="lightGlow glow1"></div>
+
+<div class="lightGlow glow2"></div>
+
+<div class="lightGlow glow3"></div>
+
+<div id="stars"></div>
+
+<div id="goldParticles"></div>
+
+<div id="floatingDust"></div>
+
+<div id="bokehLights"></div>
+
+<div id="heartsBackground"></div>
+
+</div>
+
+<!-- ========================================= -->
+<!-- INTRO -->
+<!-- ========================================= -->
+
+<section
+id="introSection"
+class="screen active">
+
+<div class="glassCard">
+
+<h1 class="mainTitle">
+
+Happy Birthday
+
+</h1>
+
+<h2 class="subTitle">
+
+A Special Surprise Awaits You
+
+</h2>
+
+<p class="description">
+
+Light the matchstick to begin the journey.
+
+</p>
+
+<button id="beginBtn">
+
+Begin Surprise
+
+</button>
+
+</div>
+
+</section>
+
+<!-- ========================================= -->
+<!-- MATCH SECTION -->
+<!-- ========================================= -->
+
+<section
+id="matchSection"
+class="screen">
+
+<div class="instruction">
+
+Rub the matchstick on the matchbox.
+
+</div>
+
+<div id="matchArea">
+
+<div id="matchBox">
+
+<div class="boxTop"></div>
+
+<div class="boxSide"></div>
+
+<div class="strikeSurface"></div>
+
+</div>
+
+<div id="matchStick">
+
+<div class="stickWood"></div>
+
+<div class="stickHead"></div>
+
+<div class="stickGlow"></div>
+
+</div>
+
+</div>
+
+<div id="sparkContainer"></div>
+
+<div id="smokeContainer"></div>
+
+<div id="fireLight"></div>
+
+</section>
+
+<!-- ========================================= -->
+<!-- FIRE PATH -->
+<!-- ========================================= -->
+
+<section
+id="pathSection"
+class="screen">
+
+<svg
+id="fireSVG"
+viewBox="0 0 1200 450">
+
+<path
+
+id="travelPath"
+
+d="
+M40 260
+C150 160
+250 320
+380 170
+C510 80
+640 300
+760 180
+C900 90
+1040 230
+1160 170
+
+"/>
+
+</svg>
+
+<div id="fireBall"></div>
+
+<div id="fireTrail"></div>
+
+<div id="pathGlow"></div>
+
+</section>
+
+<!-- ========================================= -->
+<!-- GIFT SECTION -->
+<!-- ========================================= -->
+
+<section
+id="giftSection"
+class="screen">
+
+<div id="giftLight"></div>
+
+<div id="giftShadow"></div>
+
+<div id="giftContainer">
+
+<div id="giftBox">
+
+<div class="giftLid">
+
+<div class="giftRibbonVertical"></div>
+
+<div class="giftRibbonHorizontal"></div>
+
+</div>
+
+<div class="giftBase">
+
+<div class="giftRibbonVertical"></div>
+
+<div class="giftRibbonHorizontal"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<div id="giftGlow"></div>
+
+</section>
+
+<!-- ========================================= -->
+<!-- SLIDESHOW -->
+<!-- ========================================= -->
+
+<section
+id="slideshowSection"
+class="screen">
+
+<div id="slideContainer">
+
+<div class="slide active">
+
+<img
+src="assets/images/1.jpg"
+alt="Photo 1">
+
+</div>
+
+<div class="slide">
+
+<img
+src="assets/images/2.jpg"
+alt="Photo 2">
+
+</div>
+
+<div class="slide">
+
+<img
+src="assets/images/3.jpg"
+alt="Photo 3">
+
+</div>
+
+<div class="slide">
+
+<img
+src="assets/images/4.jpg"
+alt="Photo 4">
+
+</div>
+
+<div class="slide">
+
+<img
+src="assets/images/5.jpg"
+alt="Photo 5">
+
+</div>
+<div class="slide">
+
+<img
+src="assets/images/6.jpg"
+alt="Photo 6">
+
+</div>
+
+<div class="slide">
+
+<img
+src="assets/images/7.jpg"
+alt="Photo 7">
+
+</div>
+
+<div class="slide">
+
+<img
+src="assets/images/8.jpg"
+alt="Photo 8">
+
+</div>
+
+<div class="slide">
+
+<img
+src="assets/images/9.jpg"
+alt="Photo 9">
+
+</div>
+
+<div class="slide">
+
+<img
+src="assets/images/10.jpg"
+alt="Photo 10">
+
+</div>
+
+<div class="slideOverlay"></div>
+
+<div class="slideGradientTop"></div>
+
+<div class="slideGradientBottom"></div>
+
+<div class="slideFlash"></div>
+
+</div>
+
+<div id="slideCounter">
+
+<span id="currentSlide">
+
+1
+
+</span>
+
+<span>
+
+/
+
+</span>
+
+<span id="totalSlides">
+
+10
+
+</span>
+
+</div>
+
+</section>
+
+<!-- ========================================= -->
+<!-- BIRTHDAY MESSAGE -->
+<!-- ========================================= -->
+
+<section
+id="messageSection"
+class="screen">
+
+<div id="messageGlow"></div>
+
+<div id="messageParticles"></div>
+
+<div id="messageCard">
+
+<h1 class="birthdayHeading">
+
+Happy Birthday 🎉
+
+</h1>
+
+<h2 class="birthdaySub">
+
+You are a really nice person 😊
+
+</h2>
+
+<p class="birthdayText">
+
+And you have an amazing personality ❤️
+
+</p>
+
+<p class="birthdayFrom">
+
+Sending by your loved one
+
+</p>
+
+</div>
+
+</section>
+
+<!-- ========================================= -->
+<!-- GLOBAL EFFECT LAYERS -->
+<!-- ========================================= -->
+
+<div id="heartLayer"></div>
+
+<div id="particleLayer"></div>
+
+<div id="goldLayer"></div>
+
+<div id="sparkLayer"></div>
+
+<div id="confettiLayer"></div>
+
+<div id="smokeLayer"></div>
+
+<div id="magicLayer"></div>
+
+<div id="fireflyLayer"></div>
+
+<div id="lightRayLayer"></div>
+
+<div id="fogLayer"></div>
+
+<div id="blurOverlay"></div>
+
+<div id="vignette"></div>
+
+<div id="screenGlow"></div>
+
+<!-- ========================================= -->
+<!-- TOP HUD -->
+<!-- ========================================= -->
+
+<header id="topBar">
+
+<div class="logo">
+
+🎁 Luxury Surprise
+
+</div>
+
+<div class="status">
+
+Ready
+
+</div>
+
+</header>
+
+<!-- ========================================= -->
+<!-- BOTTOM CONTROLS -->
+<!-- ========================================= -->
+
+<div id="controls">
+
+<button
+id="musicBtn"
+title="Music">
+
+🎵
+
+</button>
+
+<button
+id="restartBtn"
+title="Restart">
+
+↻
+
+</button>
+
+<button
+id="fullscreenBtn"
+title="Fullscreen">
+
+⛶
+
+</button>
+
+</div>
+
+<!-- ========================================= -->
+<!-- AUDIO -->
+<!-- ========================================= -->
+
+<audio
+id="birthdayMusic"
+preload="auto">
+
+<source
+src="assets/audio/birthday.mp3"
+type="audio/mpeg">
+
+</audio>
+<!-- ========================================= -->
+<!-- HIDDEN EFFECTS -->
+<!-- ========================================= -->
+
+<div id="effectsContainer">
+
+<canvas id="sparkCanvas"></canvas>
+
+<canvas id="smokeCanvas"></canvas>
+
+<canvas id="fireCanvas"></canvas>
+
+<canvas id="particleCanvas"></canvas>
+
+<canvas id="heartCanvas"></canvas>
+
+<canvas id="confettiCanvas"></canvas>
+
+<canvas id="lightCanvas"></canvas>
+
+<canvas id="magicCanvas"></canvas>
+
+</div>
+
+<!-- ========================================= -->
+<!-- SVG FILTERS -->
+<!-- ========================================= -->
+
+<svg
+id="svgFilters"
+width="0"
+height="0"
+style="position:absolute">
+
+<defs>
+
+<filter id="softGlow">
+
+<feGaussianBlur
+stdDeviation="4"
+result="blur"/>
+
+<feMerge>
+
+<feMergeNode
+in="blur"/>
+
+<feMergeNode
+in="SourceGraphic"/>
+
+</feMerge>
+
+</filter>
+
+<filter id="fireGlow">
+
+<feGaussianBlur
+stdDeviation="7"
+result="coloredBlur"/>
+
+<feMerge>
+
+<feMergeNode
+in="coloredBlur"/>
+
+<feMergeNode
+in="SourceGraphic"/>
+
+</feMerge>
+
+</filter>
+
+<filter id="giftShadow">
+
+<feDropShadow
+dx="0"
+dy="12"
+stdDeviation="12"
+flood-opacity=".45"/>
+
+</filter>
+
+</defs>
+
+</svg>
+
+<!-- ========================================= -->
+<!-- PRELOAD IMAGES -->
+<!-- ========================================= -->
+
+<div
+id="preloadImages"
+style="display:none;">
+
+<img src="assets/images/1.jpg">
+<img src="assets/images/2.jpg">
+<img src="assets/images/3.jpg">
+<img src="assets/images/4.jpg">
+<img src="assets/images/5.jpg">
+<img src="assets/images/6.jpg">
+<img src="assets/images/7.jpg">
+<img src="assets/images/8.jpg">
+<img src="assets/images/9.jpg">
+<img src="assets/images/10.jpg">
+
+</div>
+
+<!-- ========================================= -->
+<!-- OVERLAYS -->
+<!-- ========================================= -->
+
+<div id="fadeBlack"></div>
+
+<div id="fadeWhite"></div>
+
+<div id="flashOverlay"></div>
+
+<div id="cinematicBars">
+
+<div class="bar top"></div>
+
+<div class="bar bottom"></div>
+
+</div>
+
+<!-- ========================================= -->
+<!-- JAVASCRIPT -->
+<!-- ========================================= -->
+
+<script src="script.js"></script>
+
+</div>
+
+</body>
+
+</html>
